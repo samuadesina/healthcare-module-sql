@@ -1,0 +1,25 @@
+# Environment variables (never push secrets)
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+env/
+gt-sql-env/
+
+# Data output (no need to push generated files)
+data/raw-data.csv
+
+# VS Code settings
+.vscode/
+
+# Mac system files
+.DS_Store
+
+# Pytest cache
+.pytest_cache/
