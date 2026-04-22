@@ -1,5 +1,5 @@
 from sqlalchemy import create_engine, text
-import pandas as pd
+import pandas as pd #import pandas
 
 def run_query(db_url, query):
     engine = create_engine(db_url)
