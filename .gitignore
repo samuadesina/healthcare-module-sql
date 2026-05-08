@@ -13,7 +13,9 @@ env/
 gt-sql-env/
 
 # Data output (no need to push generated files)
-data/raw-data.csv
+data/processed/processed-data.csv
+data/raw/raw-data.csv
+data/logs/log.txt
 
 # VS Code settings
 .vscode/

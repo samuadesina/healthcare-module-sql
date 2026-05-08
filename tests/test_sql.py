@@ -2,11 +2,11 @@ import pandas as pd
 import os
 
 # Load the CSV that run.py produced
-df = pd.read_csv("data/raw-data.csv")
+df = pd.read_csv("data/raw/raw-data.csv")
 
 def test_file_exists():
     """Check the CSV file was actually created"""
-    assert os.path.exists("data/raw-data.csv"), "raw-data.csv not found"
+    assert os.path.exists("data/raw/raw-data.csv"), "raw-data.csv not found"
 
 def test_has_rows():
     """Check we got data back, not an empty file"""
